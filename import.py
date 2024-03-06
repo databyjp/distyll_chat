@@ -10,14 +10,18 @@ client = weaviate.connect_to_wcs(
 )
 
 urls = [
-    "https://youtu.be/K1R7oK2piUM",  # Our Mad Journey of Building a Vector Database in Go - Weaviate at FOSDEM 2023
-    "https://youtu.be/4sLJapXEPd4",  # Weaviate: An Architectural Deep Dive (Etienne Dilocker)
-    "https://youtu.be/KT2RFMTJKGs",  # Etienne AI conference talk on multi-tenancy
+    # "https://youtu.be/K1R7oK2piUM",  # Our Mad Journey of Building a Vector Database in Go - Weaviate at FOSDEM 2023
+    # "https://youtu.be/4sLJapXEPd4",  # Weaviate: An Architectural Deep Dive (Etienne Dilocker)
+    # "https://youtu.be/KT2RFMTJKGs",  # Etienne AI conference talk on multi-tenancy
     # "https://youtu.be/-ebMbqkdQdg",  # Margot Robbie interview
     # "https://youtu.be/5p248yoa3oE",  # Andrew Ng interview
     # "https://youtu.be/LkV5DTRNxAg",  # Connor Gorilla video
     # "https://youtu.be/nMMNkfSQuiU",  # Starfield (video game) review - from a week ago
     # "https://youtu.be/enRb6fp5_hw",  # Stanford: NLU Information Retrieval: Guiding Ideas Spring 2023
+    # "https://youtu.be/ickqCzFxWj0",
+    # "https://youtu.be/41EfOY0Ldkc",
+    # "https://youtu.be/CEuUG4Umfxs",
+    # "https://youtu.be/CDung1LnLbY",
 ]
 
 for yt_url in urls:
